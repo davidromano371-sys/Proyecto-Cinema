@@ -1,22 +1,18 @@
+/* =========================
+   VARIABLES DE COLOR
+========================= */
 
-:root
+:root {
+  --verde-principal: #39F28A;
+  --verde-secundario: #28D97A;
+  --verde-hover: #66F7A8;
 
-{
+  --fondo-principal: #060B10;
+  --fondo-secundario: #0B1219;
+  --superficie: #111923;
 
---verde-principal: #39F28A;
+  --borde: #243244;
 
---verde-secundario: #1cbe52;
-
---verde-hover: #4ddf8f;
-
---fondo-principal: #060B10;
-
---fondo-secundario: #0B1219;
-
---superficie: #112312;
-
---borde: #244428;
-
---texto-principal: #f4faf7;
---texto-secundario: #b8cfbd;
+  --texto-principal: #F4F7FA;
+  --texto-secundario: #A7B3C2;
 }

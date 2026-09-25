@@ -1,5 +1,56 @@
-*{
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600;700&display=swap');
+
+
+/* =========================
+   RESETEO GENERAL
+========================= */
+
+* {
   margin: 0;
   box-sizing: border-box;
 }
+
+
+/* =========================
+   ESTILOS GENERALES
+========================= */
+
+html {
+  min-height: 100%;
+}
+
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--fondo-principal);
+  color: var(--texto-principal);
+
+  font-family: "Inter", sans-serif;
+
+  overflow-x: hidden;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+
+
 
