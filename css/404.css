@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600;700&display=swap');
+
+
+.pagina-404 {
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--fondo-principal);
+  color: var(--texto-principal);
+
+  font-family: "Inter", sans-serif;
+
+  overflow-x: hidden;
+}
+
+.pagina-404 *,
+.pagina-404 *::before,
+.pagina-404 *::after {
+  box-sizing: border-box;
+}
+
+.pagina-404 .error-title,
+.pagina-404 .error-code,
+.pagina-404 .btn-rush {
+  font-family: "Montserrat", sans-serif;
+}
+
+.error-404 {
+  flex: 1 1 auto;
+
+  min-height: 0;
+
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--fondo-principal);
+
+  padding: 1.75rem 1.5rem;
+}
+
+.error-content {
+  width: 100%;
+
+  max-width: 900px;
+
+  text-align: center;
+}
+
+.error-code {
+  color: var(--verde-principal);
+
+  font-size: clamp(8rem, 13vw, 14rem);
+
+  font-weight: 700;
+
+  line-height: 0.82;
+
+  margin-bottom: 1.75rem;
+}
+
+.error-title {
+  color: var(--texto-principal);
+
+  font-size: clamp(2rem, 3.4vw, 3.4rem);
+
+  font-weight: 700;
+
+  line-height: 1.15;
+
+  margin-bottom: 1.25rem;
+}
+
+.error-text {
+  color: var(--texto-secundario);
+
+  font-size: clamp(1rem, 1.5vw, 1.35rem);
+
+  line-height: 1.55;
+
+  max-width: 680px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.75rem;
+}
+
+
+.btn-rush {
+  min-width: 250px;
+
+  background-color: var(--verde-principal);
+
+  color: var(--fondo-principal);
+
+  border: none;
+
+  border-radius: 8px;
+
+  padding: 14px 32px;
+
+  font-size: 1.1rem;
+
+  font-weight: 600;
+
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+
+.btn-rush:hover,
+.btn-rush:focus {
+  background-color: var(--verde-hover);
+
+  color: var(--fondo-principal);
+
+  transform: translateY(-2px);
+}
+
+
+@media (max-width: 991.98px) {
+
+  .error-404 {
+    padding: 2rem 1.5rem;
+  }
+
+
+  .error-code {
+    font-size: clamp(7rem, 24vw, 10rem);
+
+    margin-bottom: 1.5rem;
+  }
+
+
+  .error-title {
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+  }
+
+
+  .error-text {
+    max-width: 500px;
+
+    font-size: 1.05rem;
+  }
+
+}
+
+
+@media (max-width: 767.98px) {
+
+  .error-404 {
+    padding: 2rem 1.25rem;
+  }
+
+
+  .error-code {
+    font-size: clamp(6rem, 30vw, 8rem);
+
+    margin-bottom: 1.25rem;
+  }
+
+
+  .error-title {
+    font-size: 1.75rem;
+
+    margin-bottom: 1rem;
+  }
+
+
+  .error-text {
+    max-width: 340px;
+
+    font-size: 1rem;
+
+    margin-bottom: 1.5rem;
+  }
+
+
+  .btn-rush {
+    width: 100%;
+
+    min-width: 0;
+
+    max-width: 320px;
+  }
+
+}
