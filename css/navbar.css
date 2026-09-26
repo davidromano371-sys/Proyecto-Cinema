@@ -1,0 +1,106 @@
+.nav-color{
+  background-color: var(--fondo-principal);
+  
+}
+.b-suscribirse{
+  color: var(--texto-principal);
+  background-color: var(--verde-principal);
+  border-color: var(--verde-principal);
+}
+.b-iniciarsesion{
+  color: var(--verde-principal);
+  border-color: var(--verde-principal);
+  white-space: nowrap;
+}
+.nav-letras-color{
+  a{
+    color: var(--texto-principal);
+    &:hover{
+      color: var(--texto-principal);
+    }
+  }
+
+}
+
+.nav-link:hover{
+  color: var(--texto-secundario);
+}
+.b-iniciarsesion:hover{
+  background-color: var(--verde-secundario);
+  border-color: var(--verde-secundario);
+}
+.b-suscribirse:hover{
+  background-color: var(--verde-secundario);
+  border-color: var(--verde-secundario);
+
+}
+.nav-link:active,
+.nav-link:focus {
+  color: var(--verde-principal);
+}
+.img-mobile{
+  display: none;
+  width: 12%;
+}
+@media (max-width: 768px) {
+  .img-pc{
+    display: none;
+  }
+  .img-mobile{
+    display: block;
+  }
+}
+.dropdown-menu {
+  background-color: var(--superficie);
+  border-color: var(--borde);
+}
+
+.dropdown-item {
+  color: var(--texto-principal);
+}
+
+.dropdown-item:hover {
+  background-color: var(--verde-principal);
+  color: var(--fondo-principal);
+}
+.navbar .dropdown-toggle.show { color: var(--texto-principal); 
+
+}
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%2339F28A' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.color-search .form-control {
+  background-color: var(--fondo-secundario);
+  color: var(--texto-principal);
+  border-color: var(--borde);
+}
+.color-search .form-control::placeholder {
+  color: var(--texto-secundario);
+}
+.color-search .form-control:focus {
+  background-color: var(--fondo-secundario);
+  color: var(--texto-principal);
+  border-color: var(--verde-principal);
+  box-shadow: 0 0 0 0.25rem rgb(57 242 138 / 20%);
+}
+.botones-nav{
+  display: grid;
+  grid-template-columns: max-content;
+ }
+ .botones-nav .btn {
+  width: 100%;
+}
+@media (max-width: 992px) {
+   .botones-nav .btn {
+    width: 33%;
+}
+  
+}
