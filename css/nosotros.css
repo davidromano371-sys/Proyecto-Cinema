@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600;700&display=swap');
+
+
+.about-main {
+  background-color: var(--fondo-principal);
+  color: var(--texto-principal);
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.about-hero {
+  min-height: 70vh;
+  background-image: url("../assets/img/imagen_hombre_luna.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.about-label {
+  color: var(--texto-principal);
+  letter-spacing: 4px;
+  font-size: 0.75rem;
+}
+.about-label::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: var(--verde-principal);
+  margin-bottom: 16px;
+}
+
+
+.about-title {
+  color: var(--texto-principal);
+  font-size: 3rem;
+}
+.about-title-highlight {
+  color: var(--verde-principal);
+}
+
+
+.about-text {
+  color: var(--texto-secundario);
+  line-height: 1.5;
+  max-width: 520px;
+  font-size: 1rem;
+}
+
+
+.about-tagline {
+  color: var(--texto-principal);
+  letter-spacing: 4px;
+  font-size: 0.75rem;
+}
+.about-tagline::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: var(--verde-principal);
+  margin-bottom: 16px;
+}
+
+
+.team-section {
+  padding-top: 48px;
+  padding-bottom: 80px;
+}
+
+
+.team-title-highlight {
+  color: var(--verde-principal);
+}
+
+.team-member {
+  height: 100%;
+  text-align: center;
+  background-color: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: 16px;
+  padding: 2rem 1rem;
+}
+.team-member-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
