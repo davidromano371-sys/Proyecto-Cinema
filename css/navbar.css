@@ -98,9 +98,3 @@
  .botones-nav .btn {
   width: 100%;
 }
-@media (max-width: 992px) {
-   .botones-nav .btn {
-    width: 33%;
-}
-  
-}
