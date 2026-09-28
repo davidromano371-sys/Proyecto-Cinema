@@ -10,7 +10,17 @@
 
 .about-hero {
   min-height: 70vh;
-  background-image: url("../assets/img/imagen_hombre_luna.png");
+
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(6, 11, 16, 0.95) 0%,
+      rgba(6, 11, 16, 0.75) 40%,
+      rgba(6, 11, 16, 0.15) 70%,
+      rgba(6, 11, 16, 0) 100%
+    ),
+    url("../assets/img/imagen_hombre_luna.png");
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
