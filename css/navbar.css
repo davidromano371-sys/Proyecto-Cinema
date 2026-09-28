@@ -42,7 +42,7 @@
   display: none;
   width: 12%;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .img-pc{
     display: none;
   }
