@@ -193,3 +193,18 @@
   }
 
 }
+
+.error-code::after {
+  content: "";
+
+  display: block;
+
+  width: 48px;
+  height: 5px;
+
+  margin: 1.25rem auto 0;
+
+  background-color: var(--verde-principal);
+
+  border-radius: 999px;
+}
