@@ -46,7 +46,7 @@
       display: flex;
       justify-content: center;
       margin: 10%;
-      background-color: transparent;
+      background-color: #060b10a6;
       color: var(--verde-principal);
       border-color: var(--verde-principal);
       text-wrap:nowrap;
