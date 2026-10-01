@@ -109,3 +109,19 @@
     padding-bottom: 3rem;
   }
 }
+
+
+/* Ajuste del footer únicamente para la página Nosotros */
+
+@media (max-width: 992px) {
+  .sobre-nosotros .footer {
+    align-items: center;
+    text-align: center;
+  }
+
+  .sobre-nosotros .footer-redes,
+  .sobre-nosotros .footer-paginas {
+    justify-content: center;
+    padding-left: 0;
+  }
+}
