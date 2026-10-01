@@ -97,3 +97,15 @@
   height: 160px;
   object-fit: cover;
 }
+
+
+
+@media (max-width: 767px) {
+  .about-hero {
+    min-height: auto;
+    background-size: contain;
+    background-position: center top;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+  }
+}
