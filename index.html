@@ -26,13 +26,14 @@
       href="./assets/img/ChatGPT Image 24 sept 2026, 06_25_58 p.m. (1).png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="./css/footer.css">
-    <title>Rush | Home</title>
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Rush | Inicio</title>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg nav-color">
-        <div class="container-fluid  nav-color">
+        <div class="container-fluid nav-color">
           <img
             src="./assets/img/logo_rush.png"
             alt="Rush logo "
@@ -57,7 +58,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul
-              class="navbar-nav mb-2 mb-lg-0 nav-letras-color d-flex justify-content-evenly w-100"
+              class="navbar-nav mb-2 mb-lg-0 nav-letras-color d-flex justify-content-between w-100"
             >
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="./index.html"
@@ -129,7 +130,7 @@
               <li class="botones-nav navbar-nav nav-item botones-nav">
                 <a
                   type="button"
-                  class=" mb-2 mb-lg-0 btn btn-outline-primary b-iniciarsesion"
+                  class="mb-2 mb-lg-0 btn btn-outline-primary b-iniciarsesion"
                   href="./paginas/inicio-sesion.html"
                 >
                   Iniciar sesión
@@ -148,28 +149,29 @@
         </div>
       </nav>
     </header>
-    <main>
-      <section>
-        <div
-          id="carouselExampleAutoplaying"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
+    <main class="main">
+      <section class="carrusel-grid">
+        <div id="carouselExample" class="carousel slide x">
+          <div class="carousel-inner ">
             <div class="carousel-item active">
-              <img src="..." class="d-block w-100" alt="..." />
+              <img
+                src="./assets/img/carrusel/MMAKA5E6EZHZ3L4MKKBISSFGFE.jpg"
+                class=""
+                alt="imagen de ejemplo 1"
+              />
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="..." />
+              <img
+                src="./assets/img/carrusel/maxresdefault.jpg"
+                class="" 
+                alt="imagen de ejemplo 2"
+              />
             </div>
           </div>
           <button
             class="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-target="#carouselExample"
             data-bs-slide="prev"
           >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -178,7 +180,7 @@
           <button
             class="carousel-control-next"
             type="button"
-            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-target="#carouselExample"
             data-bs-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -186,12 +188,32 @@
           </button>
         </div>
       </section>
-      <section>
-        <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="botones">
+        <li class="">
+                <a
+                  type="button"
+                  class=" btn btn-outline-primary boton-ver-ahora"
+                  href="./paginas/inicio-sesion.html"
+                >
+                  Ver ahora
+                </a>
+              </li>
+              <li class="">
+                <a
+                  class="btn btn-primary boton-mas-inf"
+                  href="./paginas/suscripcion.html"
+                  role="button"
+                  >Más información</a
+                >
+              </li>
+      </div>
+      <section class="cartelera-grid-1">
+        <h3>Películas recomendadas</h3>
+        <div id="cartelara-1" class="carousel slide">
           <div class="carousel-indicators">
             <button
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target="#cartelara-1"
               data-bs-slide-to="0"
               class="active"
               aria-current="true"
@@ -199,73 +221,152 @@
             ></button>
             <button
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target="#cartelara-1"
               data-bs-slide-to="1"
               aria-label="Slide 2"
             ></button>
             <button
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target="#cartelara-1"
               data-bs-slide-to="2"
               aria-label="Slide 3"
             ></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="card" style="width: 18rem">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card’s content.
-                  </p>
-                </div>
+              <div class="d-flex justify-content-around cartelera">
+                <a href="#"
+                  ><img src="./assets/img/peliculas/accion/batman_begins.jpg" alt="imagen de ejemplo" 
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/peliculas/comedia/bad_boys.jpg" alt="imagen de ejemplo" 
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/peliculas/accion/iron_man_ver2.jpg" alt="imagen de ejemplo"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/peliculas/comedia/grown_ups_ver4.jpg" alt="imagen de ejemplo"
+                /></a>
               </div>
             </div>
             <div class="carousel-item">
-              <div class="card" style="width: 18rem">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card’s content.
-                  </p>
-                </div>
+              <div class="d-flex justify-content-around cartelera">
+                <a href="#"
+                  ><img src="./assets/img/peliculas/accion/matrix_reloaded.jpg" alt="imagen de ejemplo"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/peliculas/comedia/mean_girls.jpg" alt="imagen de ejemplo"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/peliculas/accion/terminator_two_judgement_day.jpg" alt="imagen de ejemplo"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/peliculas/comedia/scary_movie.jpg" alt="imagen de ejemplo"
+                /></a>
               </div>
             </div>
             <div class="carousel-item">
-              <div class="card" style="width: 18rem">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card’s content.
-                  </p>
-                </div>
+              <div class="d-flex justify-content-around cartelera">
+                <a href="#"
+                  ><img src="./assets/img/peliculas/accion/spiderman_brand_new_day.jpg" alt="imagen de ejemplo"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/peliculas/comedia/tropic_thunder_ver3.jpg" alt="imagen de ejemplo"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/peliculas/accion/fast_and_the_furious_tokyo_drift.jpg" alt="imagen de ejemplo"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/peliculas/comedia/grown_ups_ver4.jpg" alt="imagen de ejemplo"
+                /></a>
               </div>
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </section>
-      <section></section>
+      <section class="cartelera-grid-2">
+        <h3>Series recomendadas</h3>
+        <div id="cartelara-2" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#cartelara-2"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#cartelara-2"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#cartelara-2"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-around cartelera">
+                <a href="#"
+                  ><img src="./assets/img/series/Drama/breaking_bad.jpg" alt="imagen de ejemplo" 
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/series/Drama/game_of_thrones.jpg" alt="imagen de ejemplo" 
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/series/Suspenso/black_mirror_ver3.jpg" alt="imagen de ejemplo"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/series/Suspenso/dexter_ver2.jpg" alt="imagen de ejemplo"
+                /></a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-around cartelera">
+                <a href="#"
+                  ><img src="./assets/img/series/Drama/crown.jpg" alt="imagen de ejemplo"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/series/Drama/queens_ball_a_bridgerton_experience.jpg" alt="imagen de ejemplo"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/series/Suspenso/haunting_of_hill_house_ver2.jpg" alt="imagen de ejemplo"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/series/Suspenso/sinner_ver4.jpg" alt="imagen de ejemplo"
+                /></a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-around cartelera">
+                <a href="#"
+                  ><img src="./assets/img/series/Drama/queens_gambit.jpg" alt="imagen de ejemplo"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/series/Suspenso/squid_game_ver3.jpg" alt="imagen de ejemplo"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/series/Drama/better_call_saul.jpg" alt="imagen de ejemplo"
+                /></a>
+                <a href="#"
+                  ><img src="./assets/img/series/Suspenso/servant_ver4.jpg" alt="imagen de ejemplo"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="categorias">
+        <a href="./paginas/peliculas/categorias/accion.html"  class="btn-1 btn btn-outline-secondary">Accion</a>
+        <a href="./paginas/series/categorias/drama.html" class=" btn-2 btn btn-outline-secondary">Drama</a>
+        <a href="./paginas/peliculas/categorias/comedia.html" class=" btn-3 btn btn-outline-secondary">Comedia</a>
+        <a href="./paginas/series/categorias/suspenso.html" class=" btn-4 btn btn-outline-secondary">Suspenso</a>
+      </section>
     </main>
     <footer class="footer">
       <img
@@ -274,11 +375,11 @@
         class="mb-2 footer-img img-pc"
       />
       <img
-            src="./assets/img/ChatGPT Image 24 sept 2026, 06_25_58 p.m. (1).png"
-            alt="logo rush"
-            class="img-mobile mx-4 mb-3"
+        src="./assets/img/ChatGPT Image 24 sept 2026, 06_25_58 p.m. (1).png"
+        alt="logo rush"
+        class="img-mobile mx-4 mb-3"
       />
-      <ul class=" mb-3 footer-redes">
+      <ul class="mb-3 footer-redes">
         <li>
           <a href="">
             <svg
@@ -333,7 +434,7 @@
           </a>
         </li>
       </ul>
-      <ul class=" mb-2  footer-paginas">
+      <ul class="mb-2 footer-paginas">
         <li><a href="./paginas/nosotros.html">Nosotros</a></li>
         <li><a href="./paginas/contacto.html">Contacto</a></li>
       </ul>
