@@ -1,0 +1,188 @@
+/* =========================
+   PÁGINA CONTACTO
+========================= */
+
+body {
+  background-color: var(--fondo-principal);
+  margin: 0;
+}
+
+
+
+
+
+.contacto {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: var(--fondo-principal);
+  font-family: "Inter", sans-serif;
+  max-width: 1100px;
+}
+
+
+
+
+.contacto .contact-header {
+  text-align: center;
+}
+
+.contacto h1 {
+  font-family: "Montserrat", sans-serif;
+  color: var(--texto-principal);
+  font-weight: 700;
+}
+
+.contacto .contact-header p {
+  color: var(--texto-secundario);
+  font-weight: 400;
+}
+
+.contacto .contact-header h1 span {
+  color: var(--verde-principal);
+}
+
+
+
+
+
+.contacto .contact-form {
+  background-color: var(--fondo-secundario);
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.contacto .contact-form .form-control,
+.contacto .contact-form .form-select {
+  background-color: var(--superficie);
+  color: var(--texto-principal);
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  padding: 0.65rem 1rem;
+}
+
+.contacto .contact-form .form-control:focus,
+.contacto .contact-form .form-select:focus {
+  background-color: var(--superficie);
+  color: var(--texto-principal);
+  border-color: var(--verde-principal);
+  box-shadow: 0 0 0 0.15rem rgba(57, 242, 138, 0.15);
+}
+
+.contacto .contact-form .form-label {
+  color: var(--texto-principal);
+  font-weight: 600;
+}
+
+.contacto .contact-form .form-label::after {
+  content: " *";
+  color: var(--verde-principal);
+}
+
+.contacto .contact-form .form-control::placeholder {
+  color: var(--texto-secundario);
+}
+
+
+.contacto .contact-form .form-select:invalid {
+  color: var(--texto-secundario);
+}
+
+.contacto .contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contacto .contact-form .btn {
+  background-color: var(--verde-principal);
+  color: var(--fondo-principal);
+  font-weight: 700;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.contacto .contact-form .btn:hover {
+  background-color: var(--verde-hover);
+  color: var(--fondo-principal);
+}
+
+
+
+
+
+
+.contacto .contact-info {
+  background-color: var(--fondo-secundario);
+  color: var(--texto-principal);
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contacto .contact-info h2 {
+  font-family: "Montserrat", sans-serif;
+  color: var(--texto-principal);
+  font-weight: 700;
+}
+
+.contacto .contact-info h2 span {
+  color: var(--verde-principal);
+}
+
+.contacto .contact-info > p {
+  color: var(--texto-secundario);
+  font-weight: 400;
+  max-width: 650px;
+  margin: 0 auto 2rem;
+}
+
+.contacto .contact-info-item {
+  text-align: center;
+}
+
+
+.contacto .contact-info-item img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.contacto .contact-info-item h3 {
+  font-family: "Montserrat", sans-serif;
+  color: var(--texto-principal);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+
+.contacto .contact-info-item p,
+.contacto .contact-info-item a {
+  color: var(--texto-secundario);
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+
+.contacto .contact-info-item a:hover {
+  color: var(--verde-hover);
+}
+
+.contacto .horario span {
+  display: block;
+}
+
+
+
+
+
+@media (min-width: 992px) {
+
+  .contacto .contact-info-item:not(:last-child) {
+    border-right: 1px solid var(--borde);
+  }
+
+}
