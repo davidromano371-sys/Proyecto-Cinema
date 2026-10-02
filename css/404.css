@@ -208,3 +208,21 @@
 
   border-radius: 999px;
 }
+
+
+
+@media (max-width: 992px) {
+
+  .pagina-404 .footer {
+    align-items: center;
+    text-align: center;
+  }
+
+  .pagina-404 .footer-redes,
+  .pagina-404 .footer-paginas {
+    justify-content: center;
+    padding-left: 0;
+    width: 100%;
+  }
+
+}
