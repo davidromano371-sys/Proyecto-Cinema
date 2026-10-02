@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rush / Detalle de Película</title>
+  <title>Rush / Detalle de Pelicula</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
@@ -33,7 +34,7 @@
               <a class="nav-link" href="../../index.html">Inicio</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Películas</a>
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Peliculas</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="categorias/accion.html">Acción</a></li>
                 <li><a class="dropdown-item" href="categorias/comedia.html">Comedia</a></li>
@@ -50,7 +51,7 @@
               <input class="form-control me-2" type="search" placeholder="Buscar...">
             </form>
             <li class="botones-nav navbar-nav nav-item">
-              <a class="btn btn-outline-primary b-iniciarsesion" href="../contacto.html">Iniciar sesión</a>
+              <a class="btn btn-outline-primary b-iniciarsesion" href="../contacto.html">Iniciar Sesión</a>
             </li>
             <li class="botones-nav navbar-nav nav-item">
               <a class="btn btn-primary me-3 b-suscribirse" href="../suscripcion.html">Suscribirse</a>
@@ -63,27 +64,24 @@
 
   <main class="container my-4">
 
-    <a href="javascript:history.back()" class="btn btn-Volver mb-4 text-decoration-none">
-      <i class="bi bi-arrow-left me-2"></i> Volver
-    </a>
+  <a href="javascript:history.back()" class="btn btn-Volver mb-4 text-decoration-none">
+    <i class="bi bi-arrow-left me-2"></i> Volver</a>
 
     <div class="row g-4 align-items-center mb-5">
       <div class="col-12 col-md-4">
-        <img id="peli-img" src="../../assets/img/peliculas/accion/batman_begins.jpg" alt="Portada Película" class="img-fluid rounded-4 shadow-lg w-100">
+        <img src="../../assets/img/peliculas/accion/batman_begins.jpg" alt="Portada Pelicula" class="img-fluid rounded-4 shadow-lg w-100">
       </div>
       <div class="col-12 col-md-8 text-white">
-        <h1 id="peli-titulo" class="display-3 fw-bold mb-3">Batman Inicia</h1>
+        <h1 class="display-3 fw-bold mb-3">Batman Inicia</h1>
         <div class="d-flex align-items-center gap-3 text-secundario mb-4">
-          <span id="peli-anio">2005</span>
+          <span>2005</span>
           <span>|</span>
-          <span id="peli-duracion">2h 20min</span>
+          <span>2h 20min</span>
           <span>|</span>
-          <span id="peli-genero">Acción, Suspenso</span>
+          <span>Acción, Suspenso</span>
         </div>
 
-        <p id="peli-descripcion" class="fs-5 text-secundario mb-4 leading-relaxed">
-          Tras el asesinato de sus padres, el millonario Bruce Wayne viaja por el mundo para aprender a combatir el crimen...
-        </p>
+        <p class="fs-5 text-secundario mb-4 leading-relaxed">Tras el asesinato de sus padres, el millonario Bruce Wayne viaja por el mundo para aprender a combatir el crimen. Tras entrenar con una secta ninja llamada la Liga de las Sombras, regresa a una corrupta Gotham City para convertirse en Batman y salvar a su ciudad de una toxina que induce el miedo masivo.</p>
 
         <div class="d-flex gap-3 flex-wrap">
           <a href="#" class="btn btn-reproducir d-flex align-items-center gap-2 px-4 py-2">
@@ -97,7 +95,7 @@
     </div>
 
     <section class="mt-5">
-      <h3 class="text-white fw-bold mb-4">Películas Similares</h3>
+      <h3 class="text-white fw-bold mb-4">Peliculas Similares</h3>
       <div class="row row-cols-2 row-cols-md-4 g-4">
         <div class="col">
           <div class="card card-pelicula h-100">
@@ -108,106 +106,40 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card card-pelicula h-100">
-            <img src="../../assets/img/peliculas/accion/iron_man_ver2.jpg" class="card-img-top" alt="Iron Man">
-            <div class="card-body px-0 pt-2">
-              <h6 class="text-white fw-bold mb-0">Iron Man</h6>
-              <small class="text-secundario">2008</small>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card card-pelicula h-100">
-            <img src="../../assets/img/peliculas/accion/matrix_reloaded.jpg" class="card-img-top" alt="Matrix Reloaded">
-            <div class="card-body px-0 pt-2">
-              <h6 class="text-white fw-bold mb-0">Matrix Recargado</h6>
-              <small class="text-secundario">2003</small>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card card-pelicula h-100">
-            <img src="../../assets/img/peliculas/accion/terminator_two_judgement_day.jpg" class="card-img-top" alt="Terminator 2">
-            <div class="card-body px-0 pt-2">
-              <h6 class="text-white fw-bold mb-0">Terminator 2</h6>
-              <small class="text-secundario">1991</small>
-            </div>
+      <div class="col">
+        <div class="card card-pelicula h-100">
+          <img src="../../assets/img/peliculas/accion/iron_man_ver2.jpg" class="card-img-top" alt="Iron Man">
+          <div class="card-body px-0 pt-2">
+            <h6 class="text-white fw-bold mb-0">Iron Man</h6>
+            <small class="text-secundario">2008</small>
           </div>
         </div>
       </div>
+      <div class="col">
+        <div class="card card-pelicula h-100">
+          <img src="../../assets/img/peliculas/accion/matrix_reloaded.jpg" class="card-img-top" alt="Matrix Reloaded">
+          <div class="card-body px-0 pt-2">
+            <h6 class="text-white fw-bold mb-0">Matrix Recargado</h6>
+            <small class="text-secundario">2003</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-pelicula h-100">
+          <img src="../../assets/img/peliculas/accion/terminator_two_judgement_day.jpg" class="card-img-top" alt="Terminator 2">
+          <div class="card-body px-0 pt-2">
+            <h6 class="text-white fw-bold mb-0">Terminator 2</h6>
+            <small class="text-secundario">1991</small>
+          </div>
+        </div>
+      </div>
+    </div>
     </section>
 
   </main>
     
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-  <script>
-    const peliculas = {
-      batman: {
-        titulo: "Batman Inicia",
-        anio: "2005",
-        duracion: "2h 20min",
-        genero: "Acción, Suspenso",
-        img: "../../assets/img/peliculas/accion/batman_begins.jpg",
-        descripcion: "Tras el asesinato de sus padres, el millonario Bruce Wayne viaja por el mundo para aprender a combatir el crimen."
-      },
-      tokyo: {
-        titulo: "Rápidos y Furiosos: Reto Tokio",
-        anio: "2006",
-        duracion: "1h 44min",
-        genero: "Acción, Carreras",
-        img: "../../assets/img/peliculas/accion/fast_and_the_furious_tokyo_drift.jpg",
-        descripcion: "Un competidor de carreras callejeras solitario se muda a Tokio con su padre y descubre el mundo del drift racing."
-      },
-      ironman: {
-        titulo: "Iron Man",
-        anio: "2008",
-        duracion: "2h 06min",
-        genero: "Acción, Sci-Fi",
-        img: "../../assets/img/peliculas/accion/iron_man_ver2.jpg",
-        descripcion: "Tras ser capturado por terroristas, el multimillonario Tony Stark construye una armadura de alta tecnología para escapar."
-      },
-      matrix: {
-        titulo: "Matrix Recargado",
-        anio: "2003",
-        duracion: "2h 18min",
-        genero: "Acción, CiFi",
-        img: "../../assets/img/peliculas/accion/matrix_reloaded.jpg",
-        descripcion: "Neo y los líderes rebeldes estiman que les quedan 72 horas antes de que las máquinas destruyan Zion."
-      },
-      spiderman: {
-        titulo: "Spider-Man",
-        anio: "2002",
-        duracion: "2h 01min",
-        genero: "Acción, Aventura",
-        img: "../../assets/img/peliculas/accion/spiderman_brand_new_day.jpg",
-        descripcion: "Peter Parker equilibra su vida como estudiante con su alter ego Spider-Man tras ser mordido por una araña genéticamente modificada."
-      },
-      terminator: {
-        titulo: "Terminator 2: El Juicio Final",
-        anio: "1991",
-        duracion: "2h 17min",
-        genero: "Acción, CiFi",
-        img: "../../assets/img/peliculas/accion/terminator_two_judgement_day.jpg",
-        descripcion: "Un cyborg reprogramado es enviado al pasado para proteger a John Connor de un Terminator de metal líquido letal."
-      }
-    };
-
-    // Leer de localStorage
-    const peliKey = localStorage.getItem('peliSeleccionada');
-
-    if (peliKey && peliculas[peliKey]) {
-      const p = peliculas[peliKey];
-      document.getElementById('peli-titulo').innerText = p.titulo;
-      document.getElementById('peli-anio').innerText = p.anio;
-      document.getElementById('peli-duracion').innerText = p.duracion;
-      document.getElementById('peli-genero').innerText = p.genero;
-      document.getElementById('peli-descripcion').innerText = p.descripcion;
-      document.getElementById('peli-img').src = p.img;
-      document.getElementById('peli-img').alt = p.titulo;
-      document.title = `${p.titulo} / RUSH`;
-    }
-  </script>
+    
 </body>
 </html>
