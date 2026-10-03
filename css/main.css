@@ -69,22 +69,22 @@
     grid-template-columns: repeat(4, 1fr);
     .btn-1 {
       justify-self: center;
-       width: 80%;
+       width: 90%;
       grid-column: 1/2;
     }
     .btn-2 {
       justify-self: center;
-       width: 80%;
+       width: 90%;
       grid-column: 2/3;
     }
     .btn-3 {
       justify-self: center;
-       width: 80%;
+       width: 90%;
       grid-column: 3/4;
     }
     .btn-4 {
       justify-self: center;
-       width: 80%;
+       width: 90%;
       grid-column: 4/5;
     }
   }
@@ -126,4 +126,20 @@ h3 {
 .cartelera img:hover{
   border: solid 2px;
   border-color: var(--verde-principal);
+}
+@media (max-width: 991px) {
+  .main .botones {
+    margin-right:0% ;
+    grid-column: 1 / -1;
+    width: 100%;
+    .boton-mas-inf{
+      display: flex;
+      justify-self: center;
+
+    }
+    .boton-ver-ahora{
+      display: flex;
+      justify-self: center;
+    }
+  }
 }
