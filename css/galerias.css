@@ -1,0 +1,107 @@
+/* ==========================================================================
+   ESTILOS DE GALERÍAS Y DETALLE - RUSH
+   ========================================================================== */
+
+/* Fondo global */
+body {
+  background-color: var(--fondo-principal);
+  color: var(--texto-principal);
+  font-family: 'Inter', sans-serif;
+}
+
+.text-secundario {
+  color: var(--texto-secundario);
+}
+
+/* Corrección de visibilidad del Navbar (sin modificar navbar.css) */
+.navbar-nav .nav-link {
+  color: var(--texto-principal);
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--verde-principal);
+  font-weight: 600;
+}
+
+/* Tarjetas de Película */
+.card-pelicula {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card-pelicula img {
+  border-radius: 12px;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+}
+
+.card-pelicula:hover {
+  transform: translateY(-8px);
+}
+
+/* Botones de Vista Detalle */
+.btn-Volver {
+  color: var(--texto-principal);
+  border: 1px solid var(--borde);
+  background-color: var(--superficie);
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: all 0.2s ease;
+}
+
+.btn-Volver:hover {
+  color: var(--fondo-principal);
+  background-color: var(--verde-principal);
+  border-color: var(--verde-principal);
+}
+
+.btn-reproducir {
+  background-color: var(--verde-principal);
+  color: var(--fondo-principal);
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-reproducir:hover {
+  background-color: var(--verde-hover);
+  color: var(--fondo-principal);
+  transform: scale(1.02);
+}
+
+.btn-agregar {
+  background-color: transparent;
+  color: var(--texto-principal);
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.btn-agregar:hover {
+  background-color: var(--superficie);
+  color: var(--verde-principal);
+  border-color: var(--verde-principal);
+}
+
+/* Paginación */
+.custom-pagination .page-link {
+  background-color: var(--superficie);
+  color: var(--texto-principal);
+  border: 1px solid var(--borde);
+  padding: 10px 18px;
+}
+
+.custom-pagination .page-item.active .page-link {
+  background-color: var(--verde-principal);
+  color: var(--fondo-principal);
+  border-color: var(--verde-principal);
+  font-weight: bold;
+}
+
+.custom-pagination .page-link:hover {
+  background-color: var(--verde-hover);
+  color: var(--fondo-principal);
+}
