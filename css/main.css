@@ -69,22 +69,22 @@
     grid-template-columns: repeat(4, 1fr);
     .btn-1 {
       justify-self: center;
-       width: 80%;
+       width: 90%;
       grid-column: 1/2;
     }
     .btn-2 {
       justify-self: center;
-       width: 80%;
+       width: 90%;
       grid-column: 2/3;
     }
     .btn-3 {
       justify-self: center;
-       width: 80%;
+       width: 90%;
       grid-column: 3/4;
     }
     .btn-4 {
       justify-self: center;
-       width: 80%;
+       width: 90%;
       grid-column: 4/5;
     }
   }
