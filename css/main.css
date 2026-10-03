@@ -25,7 +25,6 @@
     }
   }
   .botones {
-    margin-left: 20%;
     z-index: 1000;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -35,7 +34,6 @@
       display: flex;
       justify-content: center;
       grid-column: 1/2;
-      margin: 10%;
       background-color: var(--verde-principal);
       border-color: var(--verde-principal);
       color: var(--texto-principal);
@@ -45,7 +43,7 @@
       grid-column: 2/3;
       display: flex;
       justify-content: center;
-      margin: 10%;
+
       background-color: #060b10a6;
       color: var(--verde-principal);
       border-color: var(--verde-principal);
@@ -125,7 +123,9 @@ h3 {
   justify-self: center;
   justify-content: center;
 }
-  
+  .botones{
+    margin-left: 20%;
+  }
 }
 .cartelera img:hover{
   border: solid 2px;
