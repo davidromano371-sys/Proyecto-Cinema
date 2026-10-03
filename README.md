@@ -50,13 +50,53 @@ De forma general, RUSH utiliza una organización similar a la siguiente:
 
 ```text
 Proyecto-Cinema/
-├── index.html
-├── README.md
+│
 ├── assets/
-│   ├── img/
-│   └── icons/
+│   ├── icon/                 
+│   └── img/
+│       ├── carrusel/         
+│       ├── peliculas/
+│       │   ├── accion/
+│       │   └── comedia/
+│       ├── series/
+│       │   ├── Drama/
+│       │   └── Suspenso/
+│       └── ...               
+│
 ├── css/
-└── paginas/
+│   ├── colores.css
+│   ├── contacto.css
+│   ├── detalle.css
+│   ├── footer.css
+│   ├── formularios.css
+│   ├── galerias.css
+│   ├── inicio-sesion.css
+│   ├── main.css
+│   ├── navbar.css
+│   ├── nosotros.css
+│   ├── styles.css
+│   ├── suscripcion.css
+│   └── 404.css
+│
+├── paginas/
+│   ├── peliculas/
+│   │   ├── categorias/
+│   │   ├── detalle-accion/
+│   │   └── detalle-comedia/
+│   │
+│   ├── series/
+│   │   ├── categorias/
+│   │   ├── detalle-drama/
+│   │   └── detalle-suspenso/
+│   │
+│   ├── contacto.html
+│   ├── inicio-sesion.html
+│   ├── nosotros.html
+│   ├── suscripcion.html
+│   └── 404.html
+│
+├── index.html                
+└── README.md                 
 ```
 
 
